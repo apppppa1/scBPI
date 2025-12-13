@@ -1,6 +1,8 @@
 # 1) 忽略所有
 *
 
+
+
 # 2) 放行所有目录（否则 Git 可能进不去子目录）
 !*/
 
@@ -9,11 +11,23 @@
 !data/hCellMix/
 !data/hCellMix/**
 
+#!data/hic/
+#!data/hic/Javierre-2016/
+#!data/hic/Javierre-2016/preprocess.sh
+
+#!packrat/**
+#!tests/**
+
+!scglue_zj/
+!scglue_zj/**
+
 #!docs/
 #!docs/locale/
 #!docs/locale/**
 
+# 屏蔽了custom，不上传这个文件夹下面的文件，如需要可解除
+custom
+
 # 4) 放行 .gitignore 本身（建议保留）
 !.gitignore
 
-custom
