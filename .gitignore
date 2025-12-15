@@ -19,6 +19,7 @@
 !scglue_zj/
 !scglue_zj/**
 
+!environment.yml
 #!docs/
 #!docs/locale/
 #!docs/locale/**
