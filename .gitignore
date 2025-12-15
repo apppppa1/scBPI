@@ -1,8 +1,6 @@
 # 1) 忽略所有
 *
 
-
-
 # 2) 放行所有目录（否则 Git 可能进不去子目录）
 !*/
 
@@ -24,7 +22,8 @@
 #!docs/
 #!docs/locale/
 #!docs/locale/**
-
+!docs/
+!docs/train.py
 # 屏蔽了custom，不上传这个文件夹下面的文件，如需要可解除
 custom
 
